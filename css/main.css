@@ -89,8 +89,12 @@ textarea {
 body {
   background-color: #002d41 !important;
 }
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../font/Poppins/Poppins-Regular.ttf");
+}
 .wrapper {
-  font-family: "Ubuntu Titling", sans-serif !important;
+  font-family: "Poppins-Regular","Ubuntu Titling", sans-serif !important;
   width: 90vw;
   color: white;
 }
