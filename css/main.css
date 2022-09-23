@@ -128,15 +128,23 @@ nav > .wrapper {
   justify-content: center;
   align-items: start;
 }
+.carouselContainer{
+  text-align: center;
+}
+.carouselContainer > div{
+  align-items: center;
+  font-size: 20px;
+}
 .container-with-pic img {
   width: 100%;
   object-fit: cover;
+  height: 350px;
 }
 .textLeft {
-  padding-right: 20px;
+  padding-right: 40px;
 }
 .textRight {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 #map {
   height: 180px;
