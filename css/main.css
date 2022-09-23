@@ -86,17 +86,20 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-  background-color: #002D41 !important;
+body {
+  background-color: #002d41 !important;
 }
 .wrapper {
   width: 90vw;
-  color:white;
+  color: white;
 }
-h1,h2,h3,h4{
-  color:#FFC202;
+h1,
+h2,
+h3,
+h4 {
+  color: #ffc202;
 }
-.logo{
+.logo {
   object-fit: contain;
   margin-right: 2em;
 }
@@ -106,7 +109,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 0 10vw !important;
-  border-bottom: 2px solid #FFC202;
+  border-bottom: 2px solid #ffc202;
 }
 nav > .wrapper {
   display: flex;
@@ -127,9 +130,13 @@ nav > .wrapper {
 .container-with-pic img {
   width: 100%;
   object-fit: cover;
-  margin: 0 1em;
 }
-
+.textLeft {
+  padding-right: 20px;
+}
+.textRight {
+  padding-left: 20px;
+}
 #map {
   height: 180px;
   width: 100%;
@@ -148,7 +155,7 @@ nav > .wrapper {
 .job-card {
   cursor: pointer;
   padding: 10px;
-  border: 2px solid #FFC202;
+  border: 2px solid #ffc202;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
@@ -157,11 +164,18 @@ nav > .wrapper {
   background-color: #545f6c;
 }
 .divLink {
-  margin: 10em 0;
+  padding: 2.5em;
+  border-top: 2px groove #ffc202;
+  border-bottom: 2px groove #ffc202;
+}
+@media screen and (max-width: 720px) {
+  .container-with-pic > div {
+    margin: 2em 0;
+  }
 }
 @media screen and (min-width: 720px) {
   .divLink {
-    margin: 15em 0;
+    margin: 5em 0;
   }
   nav {
     padding: 0 12.5vw !important;
