@@ -90,6 +90,7 @@ body {
   background-color: #002d41 !important;
 }
 .wrapper {
+  font-family: "Ubuntu Titling", sans-serif !important;
   width: 90vw;
   color: white;
 }
@@ -164,11 +165,11 @@ nav > .wrapper {
   gap: 0.5em;
   width: 225px;
   background-color: #545f6c;
-transition: all linear .2s;
+  transition: all linear 0.2s;
 }
 
-.job-card:hover{
-  transform: scale3D(1.025,1.025,1.025);
+.job-card:hover {
+  transform: scale3D(1.025, 1.025, 1.025);
 }
 .divLink {
   padding: 2.5em;
@@ -179,7 +180,7 @@ transition: all linear .2s;
   .container-with-pic > div {
     margin: 2em 0;
   }
-  .job-card{
+  .job-card {
     width: 100%;
   }
 }
