@@ -95,7 +95,7 @@ body {
 }
 .wrapper {
   font-family: "Poppins-Regular","Ubuntu Titling", sans-serif !important;
-  width: 90vw;
+  max-width: 1140px;
   color: white;
 }
 h1,
