@@ -1,0 +1,13 @@
+[
+  {
+    "name": "test",
+    "value": "testValue",
+    "x":49.443,
+    "y":1.09
+  },
+  {
+    "name": "test2",
+    "value": "testValue2",
+    "x":49.5,
+    "y":1.09}
+]
