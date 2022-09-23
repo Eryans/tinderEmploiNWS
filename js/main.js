@@ -56,7 +56,7 @@ window.onload = () => {
       attribution: "© OpenStreetMap",
     }).addTo(map);
 
-    fetch("../data/data.json")
+    fetch("./../data/data.json")
       .then((res) => res.json())
       .then((res) => {
         res.forEach((obj) => {
