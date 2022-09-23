@@ -124,14 +124,10 @@ nav > .wrapper {
   justify-content: center;
   align-items: start;
 }
-.container-with-pic > div p,
-.container-with-pic > div h2 {
-  padding: 1em;
-  margin: 0;
-}
 .container-with-pic img {
   width: 100%;
   object-fit: cover;
+  margin: 0 1em;
 }
 
 #map {
