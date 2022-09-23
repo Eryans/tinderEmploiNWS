@@ -88,10 +88,13 @@ textarea {
    ========================================================================== */
 body{
   background-color: #002D41 !important;
-  color:white !important;
 }
 .wrapper {
   width: 90vw;
+  color:white;
+}
+h1,h2,h3,h4{
+  color:#FFC202;
 }
 .logo{
   object-fit: contain;
