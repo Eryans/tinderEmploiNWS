@@ -22,6 +22,21 @@ const generateLayout = () => {
   document.body.insertBefore(NAVBAR, document.body.firstChild);
 };
 
+const DATA = [
+    {
+      "name": "test",
+      "value": "testValue",
+      "x":49.443,
+      "y":1.09
+    },
+    {
+      "name": "test2",
+      "value": "testValue2",
+      "x":49.5,
+      "y":1.09}
+  ]
+  
+
 const JOB_CONTAINER = document.querySelector("[result-container]");
 
 window.onload = () => {
@@ -56,12 +71,15 @@ window.onload = () => {
       attribution: "© OpenStreetMap",
     }).addTo(map);
 
-    fetch("./../data/data.json")
+/*     fetch("./../data/data.json")
       .then((res) => res.json())
       .then((res) => {
         res.forEach((obj) => {
           JOB_CONTAINER.appendChild(generateCard(obj));
         });
-      });
+      }); */
+      DATA.forEach((obj) => {
+        JOB_CONTAINER.appendChild(generateCard(obj));
+      })
   }
 };
