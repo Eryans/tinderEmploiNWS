@@ -164,6 +164,11 @@ nav > .wrapper {
   gap: 0.5em;
   width: 225px;
   background-color: #545f6c;
+transition: all linear .2s;
+}
+
+.job-card:hover{
+  transform: scale3D(1.025,1.025,1.025);
 }
 .divLink {
   padding: 2.5em;
