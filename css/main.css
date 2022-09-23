@@ -159,8 +159,10 @@ nav > .wrapper {
   border-radius: 3px;
   display: flex;
   flex-direction: column;
+  justify-content: start;
+  text-align: start;
   gap: 0.5em;
-  max-width: 200px;
+  width: 225px;
   background-color: #545f6c;
 }
 .divLink {
@@ -171,6 +173,9 @@ nav > .wrapper {
 @media screen and (max-width: 720px) {
   .container-with-pic > div {
     margin: 2em 0;
+  }
+  .job-card{
+    width: 100%;
   }
 }
 @media screen and (min-width: 720px) {
